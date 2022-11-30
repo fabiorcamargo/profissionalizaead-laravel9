@@ -46,7 +46,7 @@ services:
 
     # queue
     queue:
-        image: profissionaliza/laravel9-app
+        image: especializati/laravel9-app
         restart: unless-stopped
         command: "php artisan queue:work"
         volumes:
